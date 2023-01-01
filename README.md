@@ -9,13 +9,14 @@
 
 ## Install
 
-### • MPV                                        Debian/Ubuntu:
+### • MPV 
+Debian/Ubuntu:
   ```
     # apt install mpv
   ```
 Arch Linux and Manjaro:
   ```
-      # pacman -S mpv                                         # pacman -S mpv
+    # pacman -S mpv
   ```
 OpenSUSE:
   ```
@@ -75,7 +76,7 @@ Fedora:
   ```
     # dnf install xwinwrap
   ```
-Void Linux
+Void Linux:
   ```
     # xbps-install -S xwinwrap
   ```
