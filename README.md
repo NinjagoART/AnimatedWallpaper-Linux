@@ -1,4 +1,4 @@
-# Animated background                                           
+# Animated Wallapaper On your desktop
 
 ![Example of animated Wallapaper](./amwllpr.gif)
 
@@ -9,7 +9,8 @@
 
 ## Install
 
-### • MPV 
+### • MPV
+
 Debian/Ubuntu:
   ```
     # apt install mpv
@@ -17,11 +18,12 @@ Debian/Ubuntu:
 Arch Linux and Manjaro:
   ```
     # pacman -S mpv
-  ```
+  ``` 
 OpenSUSE:
   ```
     # zypper install mpv
-  ```                                                           
+  ```
+
 Fedora:
   ```
     # dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
@@ -45,24 +47,24 @@ Debian/Ubuntu (Build from sources):
   ```
 Arch Linux and Manjaro (Using AUR):
 
-  1. Using yay
+  1. Using yay:
   ```
     # yay -S xwinwrap-git
   ```
-  2. Using paru
+  2. Using paru:
 
   ```
     # paru -S xwinwrap-git
   ```
-
+  
   #### Or use a xwinwrap 0.9
 
-  1. Using yay
+  1. Using yay:
   ```
     # yay -S xwinwrap-0.9-bin
-  ```
-  2. Using paru
-
+  ```  
+  2. Using paru:
+  
   ```
     # paru -S xwinwrap-0.9-bin
   ```
@@ -83,11 +85,11 @@ Void Linux:
 
 ## Configuration
 
-Xwinwrap works becouse mpv draw the video on screen using Hardware
-Aceleration, if you don't have enable on your system, please, read the
+Xwinwrap works becouse mpv draw the video on screen using Hardware 
+Aceleration, if you don't have enable on your system, please, read the 
 article on Arch wiki. [Hardware video acceleration](https://wiki.archlinux.org/title/Hardware_video_acceleration)
 
-Now, create a new config file on `~/.config/mpv/mpv.conf` with the
+Now, create a new config file on `~/.config/mpv/mpv.conf` with the 
 following configuration
 
 ```conf
@@ -105,7 +107,7 @@ idle=no
 aid=no
 background="#427b58"
 ```
-Create a new bash script into a personal script folder, and execute
+Create a new bash script into a personal script folder, and execute 
 in the start file in your wm
 
 ```bash
