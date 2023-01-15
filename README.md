@@ -104,8 +104,8 @@ hwdec=vaapi
 aid=no
 loop-file=yes
 idle=no
-aid=no
 background="#427b58"
+really-quiet=yes
 ```
 Create a new bash script into a personal script folder, and execute 
 in the start file in your wm
